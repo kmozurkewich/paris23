@@ -1,5 +1,9 @@
 # AvidK - Web3 IoT and Identity PoC
 
+### [*Presentation*](https://onedrive.live.com/edit.aspx?resid=A24E7A71DA64BC75!15451&ithint=file%2cpptx&authkey=!AGerZ83788H1oIg)
+
+<br>
+
 This project was done for Ethglobal Paris 23 by [Anne](https://github.com/annejungers) and [Karl](https://github.com/kmozurkewich).
 
 The purpose of this app is to demonstrate a use-case that integrates Vehicles, Web3 Digital Identity and Web3 messaging.  We wanted to take events from a connected vehicle (diagnotics, postiion, etc.) and orchestrate the data one-chain when a critical event occurred.  We explored:
