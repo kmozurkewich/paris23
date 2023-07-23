@@ -2,7 +2,7 @@
 
 This project was done for Ethglobal Paris 23 by [Anne](https://github.com/annejungers) and [Karl](https://github.com/kmozurkewich).
 
-The purpose of this app is to demonstrate a use-case that integrates Vehicles, Web3 Digital Identity and Web3 messaging.  We wanted to take events from a connected vehicle (diagnotics, postiion, etc.) and orchestrate the data one-chain when a critical event occured.  We explored:
+The purpose of this app is to demonstrate a use-case that integrates Vehicles, Web3 Digital Identity and Web3 messaging.  We wanted to take events from a connected vehicle (diagnotics, postiion, etc.) and orchestrate the data one-chain when a critical event occurred.  We explored:
 * proxitimy of other vehicles
 * accident/crash events
 * attestation of device messages on-chain
@@ -26,7 +26,7 @@ The goal was to get a working demo within 36 hours, however, we fell short.
 
 While the app is incomplete, we were able to explore integrations of the above technologies.  What we learned:
 
-* Polygon ID is strict with schemas.  We ran into inconsistencies with generating Verifieable Credentials (VCs) - the Issuer would often error-out when trying to issue the claim to the PolygonID wallet.  We suspect there were issues processing the attributes on the schema which we made custom to represent a vehicle
+* Polygon ID is strict with schemas.  We ran into inconsistencies with generating Verifieable Credentials (VCs) - the Issuer would often error-out when trying to issue the claim to the PolygonID wallet.  We suspect there were issues processing the attributes on the schema which [we made custom](https://schema-builder.polygonid.me/schemas/f053b40d-735f-4931-82e8-f1d44a726bb2) to represent a vehicle 
 * Dock has a nice interface for generating DIDs and VCs against Polygon.  We ran into issues with their mobile wallet and credentials all being expired regardless if any expiration date was set.
 * Push is interesting for various messaging items in web3 - they appear to run their own network of nodes for messaging (L2-like) and require you open a channel on mainnet with their tokens (on creation). 
 
