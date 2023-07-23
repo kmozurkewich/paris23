@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "ProofOfJourney": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:16b8658f-5aa6-4663-85f6-d87e97cd70a6#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "geolocation": {
+                        "@id": "polygon-vocab:geolocation",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:5a7c4fd7-8dd0-4eab-9cc5-f7836e99ff15"
+            }
+        }
+    ]
+}
